@@ -6,11 +6,11 @@ from fuzzywuzzy import process
 from polyfuzz import PolyFuzz
 
 
-past_wwad_combined = r'C:\Users\xei20650\OneDrive - Intermountain Healthcare\Documents\WWAD reports\WWAD_Combined.xlsx'
-past_wwad_Testcombined = r'C:\Users\xei20650\OneDrive - Intermountain Healthcare\Documents\WWAD reports\WWAD_Combined - Copy.xlsx'
+past_wwad_combined = r'..\WWAD_Combined.xlsx'
+past_wwad_Testcombined = r'..\WWAD_Combined - Copy.xlsx'
 
 
-employee_master = r'C:\Users\xei20650\OneDrive - Intermountain Healthcare\Documents\Downloads\employees' \
+employee_master = r'..employees' \
                   r' for wwad\employees.csv'
 
 wwad_df = pd.read_excel(past_wwad_Testcombined)
